@@ -48,6 +48,9 @@ section {
   padding: 24px 0;
   border-bottom: 1px solid lightgrey;
 }
+.sec_1 {
+  background-color: #038dfe;
+}
 
 section:last-child {
   border-bottom: none;
@@ -56,6 +59,7 @@ section:last-child {
 .section-title {
   font-weight: bold;
   font-size: 18px;
+  
 }
 
 /***********************************
@@ -184,5 +188,4 @@ img.avatar {
   }
 }
 .btn-dark{
-  margin-left: 600px;
-}
+  margin-le
