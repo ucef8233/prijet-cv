@@ -23,6 +23,8 @@ p {
   border-radius: 30px;
   background: #d5D6D2;
   border-top: none;
+  
+
 }
 
 section {
@@ -36,8 +38,10 @@ section {
 
 .display-4 {
   text-shadow: 5px 5px #3A5199;
+  font-size: 48px;
+    line-height: 1;
+    text-align: center;
 }
-
 .icon {
   fill: currentColor;
   display: inline-block;
@@ -207,24 +211,11 @@ section:last-child {
   text-align: center !important;
 }
 
-.nav-test {
-  background-color: #d5D6D2;
-  border: 1px solid #d5D6D2;
-  border-radius: 30px;
-  border-top: none;
-
-}
-
 .nav-link {
   color: #d5D6D2 !important;
 }
 
-.nav-item {
-  background-color: #2F2E33;
-  border: 1px solid #2F2E33;
-  border-radius: 30px;
-  border-top: none;
-}
+
   .experiance {
     border: 1px solid #d5D6D2;
     border-radius: 30px;
