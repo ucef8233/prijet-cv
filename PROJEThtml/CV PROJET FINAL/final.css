@@ -9,14 +9,9 @@ html {
     font-family: 'Source Sans Pro', sans-serif;
     line-height: 1.5;
     background-image:  url("img/5bec3b950498f.jpg");
-    background-repeat: no-repeat, repeat;
+    background-repeat: no-repeat ;
     background-size: cover;
     text-align: justify;
-  }
-  
-  img {
-    max-width: 100%;
-    border-radius: 30px;
   }
   
   .icon {
@@ -31,9 +26,7 @@ html {
     color: white;
     text-decoration: none;
   }
-  a:hover{
-    un
-  }
+
   .link-item:hover {
     
     border: 1px solid  black;
@@ -105,12 +98,9 @@ html {
     text-decoration: none;
 }
 .navbar{
-     background-color: black;
      color:white;
      display :flex ;
      justify-content: space-between;
-     padding: 16px;
-     border-radius: 30px;
 }
 .navbar ul {
     display: flex;
@@ -123,20 +113,21 @@ html {
 }
 .navbar ul li a:hover {
    color:black;
-   background-color: white;
-   border-radius: 4px;
+   background-color: #038dfe;
+   border-radius: 30px;
 
 }
 .navbar img {
-  width: 16%
+  width: 30%;
 }
-
   /***********************************
 * =Main Info
 ***********************************/
 
 img.avatar {
     width: 130px;
+    max-width: 100%;
+    border-radius: 30px;
   }
 
  .my-name {
@@ -185,8 +176,8 @@ img.avatar {
 
   
 .job-title-container {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
     margin-bottom: 20px;
     font-size: 18px;
   }
@@ -259,7 +250,7 @@ img.avatar {
 
   .interests-container {
     flex-wrap: wrap;
-    justify-content: flex-start;
+    justify-content: center;
   }
 
   .interests-container img {
